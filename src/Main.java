@@ -1,5 +1,17 @@
+import org.cristopher.metodos.Metodo01;
+import org.cristopher.metodos.Metodo02;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+       traerMetodo02();
+
+
+    }
+
+    public static void traerMetodo02(){
+
+        Metodo02 metodo02 = new Metodo02();
+        metodo02.ejecutar();
+
     }
 }
